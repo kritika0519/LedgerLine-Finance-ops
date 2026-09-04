@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_email,customer_phone,company_name,customer_type,country,currency,account_status
+CUST0001,Pankaj Jain,pankaj.jain@beacondigital.co.in,+91-8518196001,Beacon Digital,Business,India,INR,Active
+CUST0002,Vivaan Roy,vivaan.roy@tridentcorp.co.in,+91-9194026542,Trident Corp,Business,India,INR,Active
+CUST0003,Reyansh Saxena,reyansh.saxena@pinnaclecapital.com,+91-7007816184,Pinnacle Capital,Business,India,INR,Active
+CUST0004,Kavita Goyal,kavita.goyal@catalystservices.co.in,+91-9641316475,Catalyst Services,Business,India,INR,Active
+CUST0005,Sunil Bhasin,sunil.bhasin97@gmail.com,+91-8928327648,,Individual,India,INR,Active
+CUST0006,Gaurav Malhotra,gaurav.malhotra@nexusinfotech.co.in,+91-9939537672,Nexus Infotech,Business,India,INR,Active
+CUST0007,Neha Dutta,neha.dutta@ignitesystems.com,+91-9353287101,Ignite Systems,Business,India,INR,Active
+CUST0008,Anil Tripathi,anil.tripathi@vanguardventures.co.in,+91-9184801845,Vanguard Ventures,Business,India,INR,Active
+CUST0009,Anaya Sharma,anaya.sharma43@icloud.com,+91-7028148932,,Individual,India,INR,Active
+CUST0010,Gaurav Chatterjee,gaurav.chatterjee86@outlook.com,+91-9101543039,,Individual,United States,USD,Active
+CUST0011,Suresh Bhatia,suresh.bhatia78@yahoo.com,+91-9778248963,,Individual,United States,USD,Active
+CUST0012,Manoj Rao,manoj.rao61@outlook.com,+91-9187133150,,Individual,India,INR,Active
+CUST0013,Advaith Sharma,advaith.sharma@tridenttechnologies.co.in,+91-7905183473,Trident Technologies,Business,India,INR,Active
+CUST0014,Suman Ghosh,suman.ghosh@starlightlabs.com,+91-9611656670,Starlight Labs,Business,India,INR,Inactive
+CUST0015,Reyansh Malhotra,reyansh.malhotra@horizonindustries.co.in,+91-9687262473,Horizon Industries,Business,India,INR,Active
+CUST0016,Kiran Roy,kiran.roy@tridentcorp.com,+91-9932677360,Trident Corp,Business,India,INR,Active
+CUST0017,Navya Ahoja,navya.ahoja68@outlook.com,+91-9387234309,,Individual,India,INR,Active
+CUST0018,Sanya Malhotra,sanya.malhotra@prismgroup.com,+91-8820812191,Prism Group,Business,India,INR,Active
+CUST0019,Ayan Ghosh,ayan.ghosh@orbittechnologies.com,+91-9399854353,Orbit Technologies,Business,India,INR,Active
+CUST0020,Deepak Kulkarni,deepak.kulkarni@paramountservices.co.in,+91-8991183842,Paramount Services,Business,United States,USD,Inactive
+CUST0021,Suman Chawla,suman.chawla@alphanetworks.com,+91-8549808412,Alpha Networks,Business,India,INR,Inactive
+CUST0022,Sachin Roy,sachin.roy@crestconsulting.com,+91-9648740164,Crest Consulting,Business,India,INR,Active
+CUST0023,Krishna Ahoja,krishna.ahoja@matrixcorp.com,+91-8801128059,Matrix Corp,Business,India,INR,Active
+CUST0024,Aditya Kulkarni,aditya.kulkarni@paramounttechnologies.com,+91-9631586923,Paramount Technologies,Business,India,INR,Inactive
+CUST0025,Kiran Nair,kiran.nair13@yahoo.com,+91-8556342160,,Individual,India,INR,Active
+CUST0026,Meena Choudhury,meena.choudhury@everestdigital.co.in,+91-8736541458,Everest Digital,Business,India,INR,Inactive
+CUST0027,Priya Agarwal,priya.agarwal24@outlook.com,+91-9794019655,,Individual,India,INR,Inactive
+CUST0028,Ayan Mishra,ayan.mishra34@outlook.com,+91-9860883561,,Individual,United States,USD,Inactive
+CUST0029,Sanjay Joshi,sanjay.joshi25@outlook.com,+91-8846564823,,Individual,India,INR,Inactive
+CUST0030,Anil Nair,anil.nair@crestventures.co.in,+91-9844369957,Crest Ventures,Business,India,INR,Active
+CUST0031,Ramesh Das,ramesh.das31@gmail.com,+91-9589513433,,Individual,India,INR,Active
+CUST0032,Rajesh Iyer,rajesh.iyer19@hotmail.com,+91-9393676320,,Individual,India,INR,Active
+CUST0033,Suman Mehta,suman.mehta38@yahoo.com,+91-7087083172,,Individual,India,INR,Active
+CUST0034,Neha Swamy,neha.swamy@velocitynetworks.com,+91-8586872774,Velocity Networks,Business,India,INR,Active
+CUST0035,Diya Chatterjee,diya.chatterjee@starlightinnovations.co.in,+91-8543455812,Starlight Innovations,Business,India,INR,Active
+CUST0036,Ishaan Kumar,ishaan.kumar@synergyinfotech.co.in,+91-9303669096,Synergy Infotech,Business,India,INR,Inactive
+CUST0037,Anika Mishra,anika.mishra63@icloud.com,+91-8589373467,,Individual,India,INR,Active
+CUST0038,Anil Pandey,anil.pandey69@yahoo.com,+91-8980699016,,Individual,India,INR,Active
+CUST0039,Vihaan Ahoja,vihaan.ahoja@omeganetworks.co.in,+91-7064641708,Omega Networks,Business,India,INR,Inactive
+CUST0040,Advaith Bhatia,advaith.bhatia93@gmail.com,+91-7003309232,,Individual,India,INR,Active
+CUST0041,Pranav Choudhury,pranav.choudhury57@yahoo.com,+91-8991241904,,Individual,India,INR,Inactive
+CUST0042,Navya Pandey,navya.pandey35@gmail.com,+91-8931491905,,Individual,India,INR,Active
+CUST0043,Arjun Banerjee,arjun.banerjee@apexsystems.com,+91-9965726284,Apex Systems,Business,India,INR,Inactive
+CUST0044,Gaurav Das,gaurav.das@everestinnovations.co.in,+91-9614737996,Everest Innovations,Business,India,INR,Active
+CUST0045,Sanya Nair,sanya.nair@pinnacleinnovations.co.in,+91-7994808313,Pinnacle Innovations,Business,India,INR,Active
+CUST0046,Nikhil Chawla,nikhil.chawla92@hotmail.com,+91-9101436349,,Individual,India,INR,Active
+CUST0047,Aadhya Tripathi,aadhya.tripathi80@outlook.com,+91-9474443135,,Individual,India,INR,Active
+CUST0048,Nikhil Nair,nikhil.nair@elevatelabs.co.in,+91-8989413435,Elevate Labs,Business,India,INR,Active
+CUST0049,Priya Shah,priya.shah@nexuscorp.co.in,+91-9771094777,Nexus Corp,Business,India,INR,Inactive
+CUST0050,Ananya Das,ananya.das@vertexventures.co.in,+91-8902294131,Vertex Ventures,Business,India,INR,Active
+CUST0051,Vikas Iyer,vikas.iyer@auraventures.co.in,+91-9149649909,Aura Ventures,Business,United Kingdom,GBP,Active
+CUST0052,Nikhil Kumar,nikhil.kumar@beaconservices.co.in,+91-9781206797,Beacon Services,Business,India,INR,Active
+CUST0053,Alok Deshmukh,alok.deshmukh68@gmail.com,+91-8734936183,,Individual,India,INR,Inactive
+CUST0054,Meena Patel,meena.patel@alphalogistics.co.in,+91-7894717464,Alpha Logistics,Business,India,INR,Active
+CUST0055,Sai Swamy,sai.swamy@synergyinfotech.com,+91-9813990490,Synergy Infotech,Business,India,INR,Active
+CUST0056,Amit Srivastava,amit.srivastava33@icloud.com,+91-9371756551,,Individual,India,INR,Active
+CUST0057,Manoj Mukherjee,manoj.mukherjee@vanguardcorp.co.in,+91-9954516808,Vanguard Corp,Business,India,INR,Active
+CUST0058,Amit Goyal,amit.goyal@prismnetworks.com,+91-9648247710,Prism Networks,Business,Singapore,SGD,Active
+CUST0059,Kavya Reddy,kavya.reddy@apexcorp.co.in,+91-9617127484,Apex Corp,Business,India,INR,Active
+CUST0060,Rajesh Chawla,rajesh.chawla@quantumventures.co.in,+91-8982146584,Quantum Ventures,Business,India,INR,Active
+CUST0061,Anika Nayak,anika.nayak@summitlabs.com,+91-9187558867,Summit Labs,Business,United States,USD,Active
+CUST0062,Manoj Chawla,manoj.chawla@starlightsystems.co.in,+91-8576627028,Starlight Systems,Business,United Kingdom,GBP,Active
+CUST0063,Reyansh Srivastava,reyansh.srivastava@paramountnetworks.co.in,+91-9762174596,Paramount Networks,Business,India,INR,Active
+CUST0064,Anita Dutta,anita.dutta@horizonlabs.com,+91-9891343161,Horizon Labs,Business,India,INR,Active
+CUST0065,Reyansh Srivastava,reyansh.srivastava@crestsolutions.co.in,+91-7004556238,Crest Solutions,Business,India,INR,Active
+CUST0066,Atharva Reddy,atharva.reddy@orbitventures.com,+91-9679237474,Orbit Ventures,Business,India,INR,Inactive
+CUST0067,Anaya Deshmukh,anaya.deshmukh30@gmail.com,+91-9159464743,,Individual,UAE,AED,Active
+CUST0068,Reyansh Chawla,reyansh.chawla@pinnaclelogistics.com,+91-9506409097,Pinnacle Logistics,Business,India,INR,Inactive
+CUST0069,Gaurav Singh,gaurav.singh@pinnacledigital.com,+91-8942104709,Pinnacle Digital,Business,India,INR,Active
+CUST0070,Seema Deshmukh,seema.deshmukh@synergyglobal.co.in,+91-7085884247,Synergy Global,Business,United Kingdom,GBP,Active
+CUST0071,Kavita Agarwal,kavita.agarwal69@gmail.com,+91-9736851604,,Individual,India,INR,Active
+CUST0072,Anil Ahoja,anil.ahoja@everestcapital.co.in,+91-9670985931,Everest Capital,Business,India,INR,Active
+CUST0073,Manoj Kulkarni,manoj.kulkarni@zenithenterprise.co.in,+91-9847113826,Zenith Enterprise,Business,India,INR,Active
+CUST0074,Sachin Dutta,sachin.dutta@elevateenterprise.com,+91-8717964053,Elevate Enterprise,Business,India,INR,Inactive
+CUST0075,Anita Goyal,anita.goyal@summitcapital.co.in,+91-8750643171,Summit Capital,Business,India,INR,Active
+CUST0076,Vikas Verma,vikas.verma@horizondigital.com,+91-7093183933,Horizon Digital,Business,India,INR,Active
+CUST0077,Geeta Swamy,geeta.swamy@radiantenterprise.com,+91-8842102053,Radiant Enterprise,Business,India,INR,Active
+CUST0078,Ananya Malhotra,ananya.malhotra@synergygroup.co.in,+91-9977589178,Synergy Group,Business,India,INR,Active
+CUST0079,Rohit Chatterjee,rohit.chatterjee@tridentsolutions.co.in,+91-9166177115,Trident Solutions,Business,India,INR,Active
+CUST0080,Diya Iyer,diya.iyer@novainfotech.co.in,+91-8984789611,Nova Infotech,Business,India,INR,Active
+CUST0081,Gaurav Roy,gaurav.roy37@hotmail.com,+91-9136576615,,Individual,India,INR,Active
+CUST0082,Pari Patel,pari.patel70@gmail.com,+91-9911615280,,Individual,India,INR,Active
+CUST0083,Isha Jain,isha.jain@radiantsystems.com,+91-8504945198,Radiant Systems,Business,India,INR,Active
+CUST0084,Advaith Mehta,advaith.mehta@novacapital.co.in,+91-9593689980,Nova Capital,Business,India,INR,Active
+CUST0085,Manoj Bhasin,manoj.bhasin@beaconlogistics.com,+91-9402296120,Beacon Logistics,Business,India,INR,Active
+CUST0086,Navya Tiwari,navya.tiwari@alphacapital.co.in,+91-9499102290,Alpha Capital,Business,India,INR,Active
+CUST0087,Sunil Tripathi,sunil.tripathi@matrixsystems.co.in,+91-7081561497,Matrix Systems,Business,India,INR,Active
+CUST0088,Advaith Pandey,advaith.pandey17@gmail.com,+91-9643244510,,Individual,India,INR,Active
+CUST0089,Krishna Mishra,krishna.mishra@starlightgroup.co.in,+91-8751606071,Starlight Group,Business,India,INR,Active
+CUST0090,Pooja Pandey,pooja.pandey63@outlook.com,+91-9960529751,,Individual,India,INR,Active
+CUST0091,Riya Nayak,riya.nayak@vertexventures.com,+91-8553521818,Vertex Ventures,Business,India,INR,Inactive
+CUST0092,Aadhya Bansal,aadhya.bansal92@yahoo.com,+91-9612432921,,Individual,India,INR,Active
+CUST0093,Suresh Choudhury,suresh.choudhury84@hotmail.com,+91-8799552717,,Individual,India,INR,Active
+CUST0094,Diya Nayak,diya.nayak@auraservices.co.in,+91-9100541199,Aura Services,Business,India,INR,Active
+CUST0095,Neha Gupta,neha.gupta@infinitumconsulting.co.in,+91-9182071518,Infinitum Consulting,Business,India,INR,Active
+CUST0096,Alok Srivastava,alok.srivastava77@icloud.com,+91-8925546659,,Individual,India,INR,Active
+CUST0097,Isha Bhatia,isha.bhatia@novaventures.co.in,+91-8592519254,Nova Ventures,Business,United Kingdom,GBP,Active
+CUST0098,Angel Shah,angel.shah@vertexlogistics.co.in,+91-8752816850,Vertex Logistics,Business,India,INR,Active
+CUST0099,Pranav Agarwal,pranav.agarwal72@yahoo.com,+91-9622141888,,Individual,India,INR,Active
+CUST0100,Gaurav Iyer,gaurav.iyer@vanguardenterprise.co.in,+91-7892706537,Vanguard Enterprise,Business,India,INR,Active
+CUST0101,Vikram Srivastava,vikram.srivastava@starlightlogistics.com,+91-7073597746,Starlight Logistics,Business,India,INR,Active
+CUST0102,Shaurya Rao,shaurya.rao27@outlook.com,+91-9875818141,,Individual,India,INR,Active
+CUST0103,Geeta Banerjee,geeta.banerjee@synergyservices.com,+91-9675060685,Synergy Services,Business,India,INR,Inactive
+CUST0104,Pari Singh,pari.singh@paramountindustries.com,+91-8752204727,Paramount Industries,Business,India,INR,Active
+CUST0105,Sai Verma,sai.verma@everestenterprise.co.in,+91-8598614341,Everest Enterprise,Business,India,INR,Active
+CUST0106,Vikram Iyer,vikram.iyer@zenithlabs.co.in,+91-9889324609,Zenith Labs,Business,India,INR,Active
+CUST0107,Atharva Saxena,atharva.saxena@pinnacleservices.com,+91-8888806706,Pinnacle Services,Business,Singapore,SGD,Active
+CUST0108,Vivaan Bansal,vivaan.bansal54@yahoo.com,+91-8519520585,,Individual,India,INR,Active
+CUST0109,Gaurav Choudhury,gaurav.choudhury71@yahoo.com,+91-7021704303,,Individual,India,INR,Active
+CUST0110,Anika Banerjee,anika.banerjee@everestcorp.co.in,+91-9834505415,Everest Corp,Business,India,INR,Active
+CUST0111,Aaliyah Mishra,aaliyah.mishra@alphalabs.com,+91-9484161692,Alpha Labs,Business,India,INR,Active
+CUST0112,Sai Joshi,sai.joshi49@hotmail.com,+91-8962757059,,Individual,UAE,AED,Active
+CUST0113,Vikram Malhotra,vikram.malhotra@tridentventures.co.in,+91-7020297021,Trident Ventures,Business,India,INR,Active
+CUST0114,Pari Mishra,pari.mishra14@icloud.com,+91-9775571928,,Individual,India,INR,Active
+CUST0115,Diya Chawla,diya.chawla13@yahoo.com,+91-9186814473,,Individual,UAE,AED,Active
+CUST0116,Seema Mukherjee,seema.mukherjee@quantumservices.co.in,+91-7971551884,Quantum Services,Business,India,INR,Active
+CUST0117,Alok Nair,alok.nair75@yahoo.com,+91-9932370589,,Individual,India,INR,Active
+CUST0118,Neha Shah,neha.shah@vertexservices.co.in,+91-8578669125,Vertex Services,Business,India,INR,Active
+CUST0119,Anil Chatterjee,anil.chatterjee@sterlingcorp.com,+91-9726801824,Sterling Corp,Business,India,INR,Active
+CUST0120,Alok Singh,alok.singh@auralogistics.com,+91-9538424981,Aura Logistics,Business,India,INR,Active
+CUST0121,Rahul Patel,rahul.patel@orbitinfotech.com,+91-8900109439,Orbit Infotech,Business,India,INR,Active
+CUST0122,Suresh Dutta,suresh.dutta@crestlabs.co.in,+91-7064710276,Crest Labs,Business,India,INR,Active
+CUST0123,Vikas Patel,vikas.patel@catalystinfotech.com,+91-7856258815,Catalyst Infotech,Business,India,INR,Active
+CUST0124,Aaliyah Chawla,aaliyah.chawla@nexuslogistics.com,+91-7896325953,Nexus Logistics,Business,India,INR,Active
+CUST0125,Ramesh Choudhury,ramesh.choudhury@crestlabs.co.in,+91-9387339500,Crest Labs,Business,India,INR,Active
+CUST0126,Sunita Das,sunita.das@apexindustries.co.in,+91-7945650609,Apex Industries,Business,India,INR,Active
+CUST0127,Gauri Bhatia,gauri.bhatia@matrixcorp.co.in,+91-8991216558,Matrix Corp,Business,United States,USD,Active
+CUST0128,Advait Swamy,advait.swamy@auratechnologies.co.in,+91-9757872982,Aura Technologies,Business,India,INR,Active
+CUST0129,Shaurya Pandey,shaurya.pandey48@icloud.com,+91-9488879470,,Individual,India,INR,Active
+CUST0130,Myra Nayak,myra.nayak@sterlingsolutions.co.in,+91-9599309728,Sterling Solutions,Business,India,INR,Active
+CUST0131,Sunita Mishra,sunita.mishra@summitdigital.co.in,+91-8513075626,Summit Digital,Business,India,INR,Active
+CUST0132,Gaurav Iyer,gaurav.iyer17@yahoo.com,+91-8838578652,,Individual,India,INR,Active
+CUST0133,Priya Bansal,priya.bansal97@outlook.com,+91-8973348434,,Individual,India,INR,Active
+CUST0134,Manoj Mukherjee,manoj.mukherjee@pinnaclecorp.com,+91-7044198665,Pinnacle Corp,Business,United Kingdom,GBP,Active
+CUST0135,Gauri Gupta,gauri.gupta@catalystservices.co.in,+91-9147338484,Catalyst Services,Business,India,INR,Active
+CUST0136,Rahul Chawla,rahul.chawla@summitgroup.co.in,+91-9601657120,Summit Group,Business,United Kingdom,GBP,Inactive
+CUST0137,Shaurya Tiwari,shaurya.tiwari70@hotmail.com,+91-8734540193,,Individual,India,INR,Active
+CUST0138,Rekha Gupta,rekha.gupta32@hotmail.com,+91-7920672400,,Individual,India,INR,Active
+CUST0139,Rekha Agarwal,rekha.agarwal@tridentcorp.co.in,+91-7928743152,Trident Corp,Business,India,INR,Active
+CUST0140,Alok Nair,alok.nair@horizonlogistics.co.in,+91-7032966851,Horizon Logistics,Business,India,INR,Active
+CUST0141,Krishna Das,krishna.das@starlightsolutions.co.in,+91-9674549904,Starlight Solutions,Business,India,INR,Active
+CUST0142,Vihaan Jain,vihaan.jain@alphaventures.com,+91-7941459332,Alpha Ventures,Business,India,INR,Active
+CUST0143,Vikas Goyal,vikas.goyal@novalabs.com,+91-7033918785,Nova Labs,Business,India,INR,Active
+CUST0144,Vihaan Roy,vihaan.roy35@icloud.com,+91-8822587139,,Individual,India,INR,Inactive
+CUST0145,Aaliyah Malhotra,aaliyah.malhotra@aurasystems.co.in,+91-9887406403,Aura Systems,Business,India,INR,Active
+CUST0146,Aadhya Bhatia,aadhya.bhatia@nexusservices.com,+91-9104622656,Nexus Services,Business,India,INR,Inactive
+CUST0147,Navya Mishra,navya.mishra@summitcorp.co.in,+91-7851286823,Summit Corp,Business,India,INR,Active
+CUST0148,Anika Choudhury,anika.choudhury79@hotmail.com,+91-8863375243,,Individual,United States,USD,Active
+CUST0149,Ayan Gupta,ayan.gupta63@icloud.com,+91-7003311907,,Individual,India,INR,Active
+CUST0150,Vihaan Chawla,vihaan.chawla61@hotmail.com,+91-9683028439,,Individual,India,INR,Active
+CUST0151,Anil Joshi,anil.joshi@sterlingenterprise.com,+91-8836440892,Sterling Enterprise,Business,India,INR,Active
+CUST0152,Suresh Malhotra,suresh.malhotra92@hotmail.com,+91-7085662462,,Individual,India,INR,Active
+CUST0153,Anita Singh,anita.singh@catalystenterprise.com,+91-7908668826,Catalyst Enterprise,Business,India,INR,Active
+CUST0154,Deepak Saxena,deepak.saxena57@gmail.com,+91-8830469901,,Individual,India,INR,Active
+CUST0155,Rohit Roy,rohit.roy@omegainfotech.co.in,+91-7903317393,Omega Infotech,Business,India,INR,Active
+CUST0156,Sanya Deshmukh,sanya.deshmukh@novacapital.co.in,+91-9487717535,Nova Capital,Business,India,INR,Active
+CUST0157,Kavita Singh,kavita.singh12@outlook.com,+91-8899642353,,Individual,India,INR,Active
+CUST0158,Suresh Roy,suresh.roy97@outlook.com,+91-9577725228,,Individual,India,INR,Inactive
+CUST0159,Priya Malhotra,priya.malhotra@everestservices.com,+91-8700623120,Everest Services,Business,India,INR,Active
+CUST0160,Vihaan Iyer,vihaan.iyer@paramountlabs.com,+91-9808860084,Paramount Labs,Business,India,INR,Active
+CUST0161,Ramesh Tripathi,ramesh.tripathi32@gmail.com,+91-7918233984,,Individual,India,INR,Active
+CUST0162,Angel Saxena,angel.saxena@vanguardnetworks.co.in,+91-8534101666,Vanguard Networks,Business,India,INR,Active
+CUST0163,Aarav Reddy,aarav.reddy@radiantsystems.com,+91-9491803397,Radiant Systems,Business,India,INR,Inactive
+CUST0164,Anil Bhasin,anil.bhasin82@gmail.com,+91-9750392614,,Individual,India,INR,Active
+CUST0165,Sunita Mishra,sunita.mishra79@outlook.com,+91-9321850163,,Individual,India,INR,Active
+CUST0166,Gaurav Iyer,gaurav.iyer60@outlook.com,+91-9847735866,,Individual,India,INR,Active
+CUST0167,Navya Saxena,navya.saxena47@yahoo.com,+91-8511426265,,Individual,India,INR,Active
+CUST0168,Anika Srivastava,anika.srivastava@beaconindustries.co.in,+91-9767888610,Beacon Industries,Business,India,INR,Active
+CUST0169,Vikas Swamy,vikas.swamy59@gmail.com,+91-9566183982,,Individual,India,INR,Active
+CUST0170,Diya Kulkarni,diya.kulkarni@quantumservices.co.in,+91-9564715437,Quantum Services,Business,India,INR,Active
+CUST0171,Reyansh Shah,reyansh.shah@vanguardinfotech.com,+91-9357569245,Vanguard Infotech,Business,India,INR,Active
+CUST0172,Rajesh Joshi,rajesh.joshi@vanguardinfotech.co.in,+91-8579356465,Vanguard Infotech,Business,India,INR,Active
+CUST0173,Rahul Dutta,rahul.dutta@velocitycorp.co.in,+91-8573741672,Velocity Corp,Business,India,INR,Active
+CUST0174,Sunil Patel,sunil.patel58@gmail.com,+91-9197968868,,Individual,India,INR,Inactive
+CUST0175,Manoj Dutta,manoj.dutta@paramountservices.co.in,+91-9652909656,Paramount Services,Business,India,INR,Active
+CUST0176,Advaith Banerjee,advaith.banerjee81@icloud.com,+91-8593756798,,Individual,India,INR,Inactive
+CUST0177,Rajesh Mehta,rajesh.mehta@paramountservices.co.in,+91-8525457387,Paramount Services,Business,India,INR,Active
+CUST0178,Rohit Srivastava,rohit.srivastava@cresttechnologies.com,+91-9905123828,Crest Technologies,Business,India,INR,Active
+CUST0179,Anaya Singh,anaya.singh90@yahoo.com,+91-9766093796,,Individual,India,INR,Active
+CUST0180,Pranav Bhasin,pranav.bhasin18@icloud.com,+91-9982553714,,Individual,India,INR,Active
+CUST0181,Pankaj Joshi,pankaj.joshi@orbitventures.co.in,+91-9457924991,Orbit Ventures,Business,India,INR,Active
+CUST0182,Kavya Kulkarni,kavya.kulkarni@pinnacleenterprise.co.in,+91-9392966278,Pinnacle Enterprise,Business,India,INR,Active
+CUST0183,Atharva Roy,atharva.roy@crestenterprise.co.in,+91-7879050723,Crest Enterprise,Business,India,INR,Inactive
+CUST0184,Ramesh Mukherjee,ramesh.mukherjee@prismsystems.com,+91-9172190340,Prism Systems,Business,India,INR,Active
+CUST0185,Shaurya Choudhury,shaurya.choudhury@velocitylabs.co.in,+91-9991485807,Velocity Labs,Business,India,INR,Inactive
+CUST0186,Reyansh Chawla,reyansh.chawla@nexusnetworks.co.in,+91-7817133959,Nexus Networks,Business,India,INR,Active
+CUST0187,Krishna Kumar,krishna.kumar17@icloud.com,+91-9484982544,,Individual,India,INR,Inactive
+CUST0188,Ramesh Mehta,ramesh.mehta@velocitysystems.com,+91-9522325367,Velocity Systems,Business,India,INR,Active
+CUST0189,Pankaj Tiwari,pankaj.tiwari@vertexservices.co.in,+91-8545775901,Vertex Services,Business,India,INR,Active
+CUST0190,Sunil Bansal,sunil.bansal78@hotmail.com,+91-9663745458,,Individual,India,INR,Active
+CUST0191,Suresh Agarwal,suresh.agarwal16@gmail.com,+91-9970127706,,Individual,India,INR,Active
+CUST0192,Krishna Kulkarni,krishna.kulkarni@paramountinnovations.co.in,+91-9441520643,Paramount Innovations,Business,India,INR,Active
+CUST0193,Reyansh Sharma,reyansh.sharma@vertexenterprise.co.in,+91-8870051627,Vertex Enterprise,Business,India,INR,Active
+CUST0194,Rohit Mehta,rohit.mehta@pinnaclelogistics.co.in,+91-7022189092,Pinnacle Logistics,Business,India,INR,Active
+CUST0195,Pankaj Patel,pankaj.patel88@hotmail.com,+91-7831121965,,Individual,United Kingdom,GBP,Active
+CUST0196,Krishna Chawla,krishna.chawla@vertexdigital.co.in,+91-8994043898,Vertex Digital,Business,India,INR,Active
+CUST0197,Deepak Malhotra,deepak.malhotra40@hotmail.com,+91-9313791805,,Individual,United States,USD,Active
+CUST0198,Kavita Ghosh,kavita.ghosh@novaglobal.com,+91-7010910430,Nova Global,Business,United States,USD,Inactive
+CUST0199,Angel Banerjee,angel.banerjee@catalystgroup.com,+91-9361889241,Catalyst Group,Business,India,INR,Active
+CUST0200,Pranav Patel,pranav.patel@vanguardservices.co.in,+91-9330316179,Vanguard Services,Business,India,INR,Active
+CUST0201,Sachin Nair,sachin.nair@catalystenterprise.com,+91-9775884252,Catalyst Enterprise,Business,India,INR,Active
+CUST0202,Rohit Jain,rohit.jain13@outlook.com,+91-7064814917,,Individual,India,INR,Active
+CUST0203,Suresh Ghosh,suresh.ghosh@alphainnovations.com,+91-7991380003,Alpha Innovations,Business,India,INR,Active
+CUST0204,Seema Patel,seema.patel@radianttechnologies.co.in,+91-7963536541,Radiant Technologies,Business,India,INR,Active
+CUST0205,Anil Malhotra,anil.malhotra@infinitumgroup.com,+91-9317445187,Infinitum Group,Business,India,INR,Active
+CUST0206,Pooja Kulkarni,pooja.kulkarni41@hotmail.com,+91-9497383206,,Individual,India,INR,Active
+CUST0207,Pankaj Sharma,pankaj.sharma10@hotmail.com,+91-7841383670,,Individual,Singapore,SGD,Active
+CUST0208,Diya Saxena,diya.saxena@starlightgroup.co.in,+91-7957191826,Starlight Group,Business,India,INR,Active
+CUST0209,Riya Shah,riya.shah@beaconinfotech.com,+91-9355743132,Beacon Infotech,Business,India,INR,Active
+CUST0210,Ishaan Mehta,ishaan.mehta@matrixinfotech.co.in,+91-8853747411,Matrix Infotech,Business,India,INR,Active
+CUST0211,Meena Swamy,meena.swamy@everestinfotech.co.in,+91-8535680442,Everest Infotech,Business,India,INR,Active
+CUST0212,Aaliyah Roy,aaliyah.roy41@gmail.com,+91-9112100323,,Individual,India,INR,Active
+CUST0213,Pankaj Saxena,pankaj.saxena@beaconservices.co.in,+91-9937215107,Beacon Services,Business,India,INR,Inactive
+CUST0214,Riya Pandey,riya.pandey@vanguardsystems.co.in,+91-9624472099,Vanguard Systems,Business,India,INR,Active
+CUST0215,Suresh Tiwari,suresh.tiwari71@gmail.com,+91-9946263838,,Individual,India,INR,Inactive
+CUST0216,Vikram Bansal,vikram.bansal@infinitumlabs.co.in,+91-8985642059,Infinitum Labs,Business,India,INR,Inactive
+CUST0217,Gaurav Bhasin,gaurav.bhasin@prismgroup.co.in,+91-8932133480,Prism Group,Business,India,INR,Inactive
+CUST0218,Pooja Mishra,pooja.mishra@everestglobal.co.in,+91-8955905992,Everest Global,Business,India,INR,Active
+CUST0219,Kiran Mukherjee,kiran.mukherjee@alphalabs.co.in,+91-9839308705,Alpha Labs,Business,India,INR,Active
+CUST0220,Krishna Agarwal,krishna.agarwal51@gmail.com,+91-9829218515,,Individual,India,INR,Active
+CUST0221,Rahul Mehta,rahul.mehta@horizonenterprise.com,+91-8567528953,Horizon Enterprise,Business,India,INR,Active
+CUST0222,Navya Kulkarni,navya.kulkarni47@yahoo.com,+91-9709690295,,Individual,United States,USD,Inactive
+CUST0223,Advaith Ghosh,advaith.ghosh@prismenterprise.co.in,+91-9935521570,Prism Enterprise,Business,India,INR,Active
+CUST0224,Arjun Bansal,arjun.bansal@zenithsolutions.co.in,+91-9162676586,Zenith Solutions,Business,India,INR,Active
+CUST0225,Kavita Ghosh,kavita.ghosh97@yahoo.com,+91-9771040541,,Individual,India,INR,Active
+CUST0226,Navya Reddy,navya.reddy80@gmail.com,+91-9499706296,,Individual,India,INR,Active
+CUST0227,Pranav Rao,pranav.rao@novacorp.co.in,+91-9543106987,Nova Corp,Business,India,INR,Active
+CUST0228,Riya Saxena,riya.saxena@summitlabs.co.in,+91-9832417146,Summit Labs,Business,India,INR,Inactive
+CUST0229,Ananya Saxena,ananya.saxena@vanguardglobal.co.in,+91-9352704774,Vanguard Global,Business,India,INR,Active
+CUST0230,Vihaan Patel,vihaan.patel95@gmail.com,+91-9958693806,,Individual,India,INR,Active
+CUST0231,Priya Das,priya.das@starlightlabs.co.in,+91-9308989921,Starlight Labs,Business,United States,USD,Active
+CUST0232,Shaurya Kumar,shaurya.kumar26@gmail.com,+91-9316329451,,Individual,India,INR,Active
+CUST0233,Neha Joshi,neha.joshi76@hotmail.com,+91-7909986162,,Individual,India,INR,Active
+CUST0234,Nikhil Mehta,nikhil.mehta82@gmail.com,+91-7048564679,,Individual,India,INR,Active
+CUST0235,Diya Pandey,diya.pandey@orbitventures.co.in,+91-7953074505,Orbit Ventures,Business,India,INR,Active
+CUST0236,Diya Mukherjee,diya.mukherjee97@gmail.com,+91-7832475469,,Individual,India,INR,Active
+CUST0237,Pranav Tiwari,pranav.tiwari76@outlook.com,+91-7808214862,,Individual,India,INR,Active
+CUST0238,Pooja Verma,pooja.verma@sterlingconsulting.com,+91-9607053457,Sterling Consulting,Business,India,INR,Active
+CUST0239,Ayan Verma,ayan.verma@prismnetworks.co.in,+91-7879855241,Prism Networks,Business,India,INR,Active
+CUST0240,Shaurya Ghosh,shaurya.ghosh37@yahoo.com,+91-8733468007,,Individual,India,INR,Active
+CUST0241,Vikas Sharma,vikas.sharma@orbitlogistics.com,+91-8546657437,Orbit Logistics,Business,India,INR,Active
+CUST0242,Sanjay Pandey,sanjay.pandey@apexgroup.com,+91-7858994417,Apex Group,Business,India,INR,Inactive
+CUST0243,Pankaj Joshi,pankaj.joshi43@outlook.com,+91-9628309652,,Individual,India,INR,Active
+CUST0244,Gauri Ahoja,gauri.ahoja61@hotmail.com,+91-8509935387,,Individual,India,INR,Active
+CUST0245,Ramesh Kulkarni,ramesh.kulkarni94@icloud.com,+91-9741724825,,Individual,India,INR,Active
+CUST0246,Advaith Kulkarni,advaith.kulkarni@sterlinginfotech.co.in,+91-8947170999,Sterling Infotech,Business,India,INR,Inactive
+CUST0247,Ramesh Jain,ramesh.jain58@icloud.com,+91-9560223569,,Individual,India,INR,Inactive
+CUST0248,Ishaan Joshi,ishaan.joshi33@gmail.com,+91-9152500743,,Individual,India,INR,Active
+CUST0249,Nikhil Reddy,nikhil.reddy@velocityservices.co.in,+91-9366676008,Velocity Services,Business,India,INR,Active
+CUST0250,Aarav Joshi,aarav.joshi77@yahoo.com,+91-9803354216,,Individual,India,INR,Active
+CUST0251,Arjun Gupta,arjun.gupta@crestnetworks.com,+91-8985625753,Crest Networks,Business,India,INR,Inactive
+CUST0252,Kiran Pandey,kiran.pandey@starlightenterprise.co.in,+91-9898215064,Starlight Enterprise,Business,India,INR,Active
+CUST0253,Vikas Malhotra,vikas.malhotra93@gmail.com,+91-9816761847,,Individual,India,INR,Active
+CUST0254,Anil Sharma,anil.sharma@summitindustries.com,+91-9599261891,Summit Industries,Business,India,INR,Active
+CUST0255,Suresh Rao,suresh.rao@velocityinnovations.com,+91-9656420873,Velocity Innovations,Business,India,INR,Active
+CUST0256,Kavya Sharma,kavya.sharma@vertexindustries.com,+91-8772181143,Vertex Industries,Business,India,INR,Inactive
+CUST0257,Ananya Choudhury,ananya.choudhury@everestglobal.com,+91-7845561100,Everest Global,Business,India,INR,Active
+CUST0258,Shaurya Agarwal,shaurya.agarwal@matrixinnovations.com,+91-9955216674,Matrix Innovations,Business,India,INR,Active
+CUST0259,Rajesh Tiwari,rajesh.tiwari@infinitumglobal.co.in,+91-8502169797,Infinitum Global,Business,India,INR,Active
+CUST0260,Aadhya Iyer,aadhya.iyer@summitenterprise.co.in,+91-9116701450,Summit Enterprise,Business,India,INR,Active
+CUST0261,Gaurav Ghosh,gaurav.ghosh38@outlook.com,+91-8889163756,,Individual,India,INR,Active
+CUST0262,Geeta Iyer,geeta.iyer@tridentglobal.co.in,+91-9172175354,Trident Global,Business,India,INR,Active
+CUST0263,Deepak Mishra,deepak.mishra@starlightservices.co.in,+91-7097177517,Starlight Services,Business,India,INR,Active
+CUST0264,Angel Tiwari,angel.tiwari@novasolutions.com,+91-7099488375,Nova Solutions,Business,India,INR,Active
+CUST0265,Advaith Choudhury,advaith.choudhury@velocitylabs.com,+91-9471130554,Velocity Labs,Business,India,INR,Active
+CUST0266,Reyansh Gupta,reyansh.gupta73@yahoo.com,+91-7861493316,,Individual,India,INR,Active
+CUST0267,Advait Agarwal,advait.agarwal@synergytechnologies.com,+91-7891779827,Synergy Technologies,Business,India,INR,Active
+CUST0268,Neha Tripathi,neha.tripathi71@icloud.com,+91-7029221699,,Individual,India,INR,Active
+CUST0269,Navya Tiwari,navya.tiwari98@yahoo.com,+91-9565472269,,Individual,India,INR,Active
+CUST0270,Anika Roy,anika.roy80@yahoo.com,+91-9639452288,,Individual,India,INR,Active
+CUST0271,Ayan Bansal,ayan.bansal@ignitesystems.com,+91-7984608106,Ignite Systems,Business,India,INR,Active
+CUST0272,Advait Bhasin,advait.bhasin30@outlook.com,+91-8742043805,,Individual,India,INR,Active
+CUST0273,Kavita Roy,kavita.roy92@icloud.com,+91-9338406665,,Individual,United Kingdom,GBP,Active
+CUST0274,Sachin Ahoja,sachin.ahoja@radiantnetworks.com,+91-7959893347,Radiant Networks,Business,India,INR,Active
+CUST0275,Atharva Nair,atharva.nair25@hotmail.com,+91-9864842294,,Individual,India,INR,Active
+CUST0276,Rekha Patel,rekha.patel@paramountinfotech.co.in,+91-7094798515,Paramount Infotech,Business,India,INR,Inactive
+CUST0277,Amit Bhatia,amit.bhatia30@hotmail.com,+91-8886153355,,Individual,India,INR,Active
+CUST0278,Nikhil Iyer,nikhil.iyer@novasolutions.co.in,+91-9473993056,Nova Solutions,Business,India,INR,Inactive
+CUST0279,Navya Ahoja,navya.ahoja@crestsolutions.com,+91-7858877043,Crest Solutions,Business,India,INR,Active
+CUST0280,Reyansh Reddy,reyansh.reddy78@icloud.com,+91-9813361386,,Individual,India,INR,Inactive
+CUST0281,Sachin Patel,sachin.patel@catalystinfotech.co.in,+91-9902481934,Catalyst Infotech,Business,India,INR,Active
+CUST0282,Angel Tripathi,angel.tripathi@vanguardindustries.co.in,+91-8791901581,Vanguard Industries,Business,India,INR,Active
+CUST0283,Vikas Saxena,vikas.saxena@paramountnetworks.co.in,+91-7807283268,Paramount Networks,Business,India,INR,Active
+CUST0284,Anika Goyal,anika.goyal11@icloud.com,+91-7882100996,,Individual,India,INR,Inactive
+CUST0285,Anika Kumar,anika.kumar54@yahoo.com,+91-9382223943,,Individual,India,INR,Active
+CUST0286,Pooja Malhotra,pooja.malhotra80@hotmail.com,+91-8781414139,,Individual,India,INR,Active
+CUST0287,Krishna Chawla,krishna.chawla@orbitservices.com,+91-9477594929,Orbit Services,Business,India,INR,Active
+CUST0288,Riya Reddy,riya.reddy@starlightdigital.com,+91-8764525777,Starlight Digital,Business,India,INR,Active
+CUST0289,Neha Mehta,neha.mehta@orbitservices.com,+91-7828341108,Orbit Services,Business,India,INR,Active
+CUST0290,Rahul Pandey,rahul.pandey37@gmail.com,+91-8848872563,,Individual,India,INR,Active
+CUST0291,Anita Deshmukh,anita.deshmukh@auragroup.co.in,+91-9480392827,Aura Group,Business,India,INR,Active
+CUST0292,Pooja Patel,pooja.patel71@outlook.com,+91-9837314530,,Individual,India,INR,Active
+CUST0293,Vikram Goyal,vikram.goyal@paramountnetworks.com,+91-9851844989,Paramount Networks,Business,India,INR,Active
+CUST0294,Pari Nayak,pari.nayak19@icloud.com,+91-9563865577,,Individual,India,INR,Active
+CUST0295,Suman Shah,suman.shah@starlightservices.co.in,+91-9532225913,Starlight Services,Business,India,INR,Active
+CUST0296,Ayan Das,ayan.das71@yahoo.com,+91-8926030299,,Individual,India,INR,Active
+CUST0297,Aditya Ghosh,aditya.ghosh@alphainnovations.com,+91-8869904137,Alpha Innovations,Business,India,INR,Active
+CUST0298,Rajesh Reddy,rajesh.reddy@synergyenterprise.com,+91-7829842579,Synergy Enterprise,Business,India,INR,Active
+CUST0299,Navya Shah,navya.shah@omegagroup.com,+91-8862912799,Omega Group,Business,India,INR,Active
+CUST0300,Ramesh Jain,ramesh.jain@summitenterprise.com,+91-8806865086,Summit Enterprise,Business,India,INR,Active
+CUST0301,Vikram Mishra,vikram.mishra@infinitumindustries.co.in,+91-9573149864,Infinitum Industries,Business,India,INR,Active
+CUST0302,Vikram Sharma,vikram.sharma@zenithgroup.co.in,+91-8735651269,Zenith Group,Business,India,INR,Active
+CUST0303,Riya Ghosh,riya.ghosh@beaconventures.com,+91-9388725887,Beacon Ventures,Business,India,INR,Active
+CUST0304,Aadhya Pandey,aadhya.pandey94@gmail.com,+91-8537213865,,Individual,India,INR,Active
+CUST0305,Anil Malhotra,anil.malhotra@tridentsolutions.com,+91-7827961143,Trident Solutions,Business,India,INR,Active
+CUST0306,Rohit Mishra,rohit.mishra61@icloud.com,+91-8784902770,,Individual,India,INR,Active
+CUST0307,Kiran Chatterjee,kiran.chatterjee@nexusgroup.co.in,+91-9692053021,Nexus Group,Business,UAE,AED,Active
+CUST0308,Aadhya Pandey,aadhya.pandey@omegagroup.co.in,+91-8511848955,Omega Group,Business,United Kingdom,GBP,Active
+CUST0309,Vikas Rao,vikas.rao@vanguardsolutions.co.in,+91-9381818451,Vanguard Solutions,Business,India,INR,Inactive
+CUST0310,Suman Dutta,suman.dutta83@outlook.com,+91-8576973577,,Individual,India,INR,Active
+CUST0311,Rajesh Jain,rajesh.jain@vanguarddigital.com,+91-9656588043,Vanguard Digital,Business,India,INR,Active
+CUST0312,Sachin Agarwal,sachin.agarwal@paramountglobal.co.in,+91-9439423733,Paramount Global,Business,India,INR,Active
+CUST0313,Pranav Singh,pranav.singh@starlightcapital.co.in,+91-9911790807,Starlight Capital,Business,India,INR,Active
+CUST0314,Geeta Ghosh,geeta.ghosh72@yahoo.com,+91-7084639208,,Individual,India,INR,Active
+CUST0315,Priya Gupta,priya.gupta@vanguardglobal.co.in,+91-9987500369,Vanguard Global,Business,India,INR,Active
+CUST0316,Kavita Ahoja,kavita.ahoja@beacondigital.co.in,+91-8955276365,Beacon Digital,Business,India,INR,Active
+CUST0317,Aaliyah Nair,aaliyah.nair@ignitedigital.com,+91-8543866322,Ignite Digital,Business,India,INR,Active
+CUST0318,Myra Mukherjee,myra.mukherjee@sterlinggroup.co.in,+91-9474489061,Sterling Group,Business,India,INR,Active
+CUST0319,Meena Ahoja,meena.ahoja@tridentindustries.co.in,+91-9445588450,Trident Industries,Business,India,INR,Active
+CUST0320,Anil Swamy,anil.swamy@ignitecorp.co.in,+91-7045587716,Ignite Corp,Business,India,INR,Active
+CUST0321,Ishaan Reddy,ishaan.reddy@paramountinfotech.co.in,+91-8996112535,Paramount Infotech,Business,India,INR,Active
+CUST0322,Diya Swamy,diya.swamy@beaconnetworks.com,+91-9498762202,Beacon Networks,Business,India,INR,Active
+CUST0323,Sachin Saxena,sachin.saxena@vanguardindustries.co.in,+91-7978006811,Vanguard Industries,Business,India,INR,Active
+CUST0324,Deepak Mishra,deepak.mishra@starlightlogistics.co.in,+91-9728200557,Starlight Logistics,Business,India,INR,Active
+CUST0325,Rekha Bhasin,rekha.bhasin@quantumcorp.co.in,+91-8979688457,Quantum Corp,Business,India,INR,Active
+CUST0326,Aaliyah Kulkarni,aaliyah.kulkarni@beaconenterprise.co.in,+91-9882547807,Beacon Enterprise,Business,United States,USD,Active
+CUST0327,Aarav Tripathi,aarav.tripathi86@yahoo.com,+91-7008536866,,Individual,India,INR,Active
+CUST0328,Deepak Mishra,deepak.mishra38@outlook.com,+91-9963894484,,Individual,India,INR,Active
+CUST0329,Atharva Shah,atharva.shah@tridentnetworks.com,+91-9597350208,Trident Networks,Business,India,INR,Inactive
+CUST0330,Gauri Bhasin,gauri.bhasin@matrixsolutions.co.in,+91-9707356475,Matrix Solutions,Business,India,INR,Active
+CUST0331,Isha Saxena,isha.saxena28@gmail.com,+91-9561872346,,Individual,India,INR,Active
+CUST0332,Gaurav Chawla,gaurav.chawla@matrixdigital.com,+91-9837183764,Matrix Digital,Business,United States,USD,Active
+CUST0333,Rohit Gupta,rohit.gupta80@icloud.com,+91-9947435031,,Individual,India,INR,Active
+CUST0334,Aarav Reddy,aarav.reddy84@gmail.com,+91-9330097925,,Individual,India,INR,Active
+CUST0335,Suresh Saxena,suresh.saxena53@gmail.com,+91-9852812735,,Individual,Singapore,SGD,Active
+CUST0336,Nikhil Bansal,nikhil.bansal66@yahoo.com,+91-9865240778,,Individual,India,INR,Active
+CUST0337,Advait Ghosh,advait.ghosh@pinnacleinfotech.com,+91-9598218274,Pinnacle Infotech,Business,India,INR,Active
+CUST0338,Anaya Sharma,anaya.sharma74@hotmail.com,+91-8520959351,,Individual,India,INR,Active
+CUST0339,Navya Rao,navya.rao@prismcorp.co.in,+91-9556511810,Prism Corp,Business,India,INR,Active
+CUST0340,Kavita Gupta,kavita.gupta@prismconsulting.co.in,+91-8967899405,Prism Consulting,Business,India,INR,Active
+CUST0341,Aarav Kumar,aarav.kumar20@hotmail.com,+91-7005865094,,Individual,India,INR,Active
+CUST0342,Sunita Kulkarni,sunita.kulkarni@omegagroup.co.in,+91-8538633839,Omega Group,Business,India,INR,Active
+CUST0343,Sachin Roy,sachin.roy@zenithcapital.com,+91-8561228685,Zenith Capital,Business,India,INR,Active
+CUST0344,Vikas Srivastava,vikas.srivastava50@icloud.com,+91-9456659398,,Individual,India,INR,Active
+CUST0345,Rekha Ahoja,rekha.ahoja@matrixnetworks.com,+91-9804908240,Matrix Networks,Business,India,INR,Active
+CUST0346,Anita Joshi,anita.joshi@everestinnovations.com,+91-8889921075,Everest Innovations,Business,India,INR,Active
+CUST0347,Suman Nayak,suman.nayak@beaconlogistics.co.in,+91-9393157279,Beacon Logistics,Business,India,INR,Active
+CUST0348,Deepak Kulkarni,deepak.kulkarni@infinitumventures.co.in,+91-9855661390,Infinitum Ventures,Business,India,INR,Active
+CUST0349,Vihaan Kulkarni,vihaan.kulkarni@horizoncorp.co.in,+91-9483206799,Horizon Corp,Business,India,INR,Active
+CUST0350,Gauri Pandey,gauri.pandey@horizonservices.co.in,+91-8508641686,Horizon Services,Business,India,INR,Active
+CUST0351,Krishna Das,krishna.das@prismventures.com,+91-9689833146,Prism Ventures,Business,India,INR,Inactive
+CUST0352,Sai Jain,sai.jain64@outlook.com,+91-9435590425,,Individual,India,INR,Inactive
+CUST0353,Aaliyah Iyer,aaliyah.iyer@nexusdigital.co.in,+91-9421103924,Nexus Digital,Business,India,INR,Active
+CUST0354,Ayan Kulkarni,ayan.kulkarni@apexinfotech.co.in,+91-8833884879,Apex Infotech,Business,India,INR,Active
+CUST0355,Manoj Verma,manoj.verma@sterlinggroup.co.in,+91-9704394070,Sterling Group,Business,India,INR,Active
+CUST0356,Sunil Goyal,sunil.goyal12@outlook.com,+91-7863681579,,Individual,India,INR,Active
+CUST0357,Ramesh Choudhury,ramesh.choudhury@catalystsolutions.co.in,+91-7984576205,Catalyst Solutions,Business,India,INR,Active
+CUST0358,Anika Chawla,anika.chawla74@outlook.com,+91-7004608432,,Individual,India,INR,Active
+CUST0359,Krishna Saxena,krishna.saxena76@icloud.com,+91-7836392649,,Individual,India,INR,Active
+CUST0360,Pranav Shah,pranav.shah@summitconsulting.com,+91-9582629251,Summit Consulting,Business,India,INR,Inactive
+CUST0361,Ayan Nair,ayan.nair@sterlingenterprise.com,+91-7056647423,Sterling Enterprise,Business,India,INR,Active
+CUST0362,Nikhil Iyer,nikhil.iyer@orbitdigital.co.in,+91-9605172897,Orbit Digital,Business,India,INR,Active
+CUST0363,Anita Mishra,anita.mishra@quantumglobal.co.in,+91-9860463331,Quantum Global,Business,India,INR,Inactive
+CUST0364,Aaliyah Iyer,aaliyah.iyer@horizonnetworks.com,+91-9360965699,Horizon Networks,Business,India,INR,Active
+CUST0365,Suman Gupta,suman.gupta@matrixnetworks.com,+91-9838860868,Matrix Networks,Business,India,INR,Inactive
+CUST0366,Advait Deshmukh,advait.deshmukh@sterlinglogistics.com,+91-9572649082,Sterling Logistics,Business,India,INR,Active
+CUST0367,Sai Banerjee,sai.banerjee@velocitycorp.co.in,+91-9357027937,Velocity Corp,Business,India,INR,Active
+CUST0368,Deepak Reddy,deepak.reddy25@gmail.com,+91-9975186892,,Individual,India,INR,Active
+CUST0369,Gaurav Reddy,gaurav.reddy82@yahoo.com,+91-9722064474,,Individual,India,INR,Active
+CUST0370,Krishna Rao,krishna.rao@velocityinnovations.co.in,+91-9178097339,Velocity Innovations,Business,India,INR,Active
+CUST0371,Aaliyah Saxena,aaliyah.saxena@apexdigital.com,+91-9598302205,Apex Digital,Business,India,INR,Active
+CUST0372,Sunil Ghosh,sunil.ghosh48@outlook.com,+91-7910162249,,Individual,India,INR,Active
+CUST0373,Pooja Roy,pooja.roy@matrixcapital.com,+91-9945561681,Matrix Capital,Business,India,INR,Active
+CUST0374,Manoj Bhasin,manoj.bhasin@synergygroup.co.in,+91-9690198179,Synergy Group,Business,United States,USD,Inactive
+CUST0375,Gauri Tripathi,gauri.tripathi@horizoninnovations.co.in,+91-8952997877,Horizon Innovations,Business,India,INR,Inactive
+CUST0376,Advaith Deshmukh,advaith.deshmukh10@gmail.com,+91-9871396605,,Individual,India,INR,Active
+CUST0377,Pranav Sharma,pranav.sharma@catalystlogistics.co.in,+91-9944885015,Catalyst Logistics,Business,India,INR,Active
+CUST0378,Sanjay Verma,sanjay.verma34@outlook.com,+91-7857702727,,Individual,India,INR,Active
+CUST0379,Isha Choudhury,isha.choudhury62@gmail.com,+91-7884958803,,Individual,India,INR,Active
+CUST0380,Seema Bansal,seema.bansal@quantuminnovations.com,+91-9468299629,Quantum Innovations,Business,India,INR,Active
+CUST0381,Anika Joshi,anika.joshi44@hotmail.com,+91-9973574384,,Individual,India,INR,Active
+CUST0382,Aditya Rao,aditya.rao66@icloud.com,+91-9878235784,,Individual,India,INR,Active
+CUST0383,Kavita Mehta,kavita.mehta76@yahoo.com,+91-9607681040,,Individual,India,INR,Active
+CUST0384,Sai Agarwal,sai.agarwal@nexusindustries.co.in,+91-8740943533,Nexus Industries,Business,India,INR,Active
+CUST0385,Gaurav Srivastava,gaurav.srivastava44@yahoo.com,+91-9741098813,,Individual,India,INR,Active
+CUST0386,Diya Patel,diya.patel46@icloud.com,+91-9621495870,,Individual,India,INR,Active
+CUST0387,Anil Malhotra,anil.malhotra@nexusservices.co.in,+91-9799795453,Nexus Services,Business,India,INR,Active
+CUST0388,Priya Saxena,priya.saxena69@icloud.com,+91-9717174773,,Individual,United States,USD,Active
+CUST0389,Geeta Iyer,geeta.iyer@pinnacleventures.co.in,+91-7955770171,Pinnacle Ventures,Business,India,INR,Active
+CUST0390,Shaurya Deshmukh,shaurya.deshmukh87@icloud.com,+91-9781615814,,Individual,India,INR,Active
+CUST0391,Myra Chawla,myra.chawla@novaglobal.com,+91-9315396695,Nova Global,Business,India,INR,Active
+CUST0392,Sunil Bhatia,sunil.bhatia83@hotmail.com,+91-9999758172,,Individual,India,INR,Active
+CUST0393,Vikas Mehta,vikas.mehta86@hotmail.com,+91-9470132902,,Individual,India,INR,Active
+CUST0394,Gauri Mishra,gauri.mishra@matrixconsulting.co.in,+91-7954946519,Matrix Consulting,Business,India,INR,Inactive
+CUST0395,Angel Shah,angel.shah17@outlook.com,+91-7980085140,,Individual,India,INR,Active
+CUST0396,Angel Joshi,angel.joshi61@hotmail.com,+91-9383272386,,Individual,India,INR,Active
+CUST0397,Myra Patel,myra.patel@radiantenterprise.co.in,+91-9902762126,Radiant Enterprise,Business,India,INR,Inactive
+CUST0398,Manoj Swamy,manoj.swamy89@yahoo.com,+91-9186876532,,Individual,India,INR,Active
+CUST0399,Suresh Chawla,suresh.chawla44@hotmail.com,+91-7989500975,,Individual,India,INR,Active
+CUST0400,Manoj Saxena,manoj.saxena@elevategroup.com,+91-7047818913,Elevate Group,Business,India,INR,Active
+CUST0401,Sunil Bhatia,sunil.bhatia79@icloud.com,+91-9590580778,,Individual,India,INR,Active
+CUST0402,Isha Tiwari,isha.tiwari@infinitumlogistics.co.in,+91-9894940792,Infinitum Logistics,Business,India,INR,Active
+CUST0403,Gauri Iyer,gauri.iyer@prismservices.co.in,+91-9944294440,Prism Services,Business,India,INR,Active
+CUST0404,Seema Nayak,seema.nayak94@hotmail.com,+91-9424372805,,Individual,Singapore,SGD,Inactive
+CUST0405,Vikas Patel,vikas.patel62@hotmail.com,+91-9672395041,,Individual,India,INR,Active
+CUST0406,Rajesh Kulkarni,rajesh.kulkarni@velocitycorp.co.in,+91-8767428604,Velocity Corp,Business,United States,USD,Active
+CUST0407,Anil Joshi,anil.joshi97@gmail.com,+91-9985694544,,Individual,India,INR,Active
+CUST0408,Rahul Pandey,rahul.pandey@summitdigital.com,+91-8938525800,Summit Digital,Business,India,INR,Active
+CUST0409,Reyansh Chatterjee,reyansh.chatterjee@matrixcapital.co.in,+91-9543009109,Matrix Capital,Business,India,INR,Active
+CUST0410,Vikas Jain,vikas.jain25@gmail.com,+91-7892692124,,Individual,India,INR,Active
+CUST0411,Arjun Choudhury,arjun.choudhury45@hotmail.com,+91-8554214066,,Individual,India,INR,Active
+CUST0412,Meena Ahoja,meena.ahoja@vertexlabs.com,+91-9696271286,Vertex Labs,Business,India,INR,Active
+CUST0413,Seema Srivastava,seema.srivastava23@gmail.com,+91-9919470720,,Individual,United States,USD,Active
+CUST0414,Diya Patel,diya.patel60@icloud.com,+91-9887766183,,Individual,India,INR,Inactive
+CUST0415,Meena Das,meena.das@novacapital.co.in,+91-9560158517,Nova Capital,Business,India,INR,Active
+CUST0416,Advait Nair,advait.nair@vanguardconsulting.co.in,+91-9315717320,Vanguard Consulting,Business,India,INR,Active
+CUST0417,Rahul Chawla,rahul.chawla@vertexcorp.com,+91-9187005050,Vertex Corp,Business,India,INR,Active
+CUST0418,Deepak Chatterjee,deepak.chatterjee@summitcorp.co.in,+91-8931027079,Summit Corp,Business,India,INR,Active
+CUST0419,Krishna Sharma,krishna.sharma@nexuslogistics.com,+91-9979291117,Nexus Logistics,Business,India,INR,Active
+CUST0420,Arjun Rao,arjun.rao@infinitumventures.co.in,+91-8798253092,Infinitum Ventures,Business,India,INR,Active
+CUST0421,Ishaan Tiwari,ishaan.tiwari@pinnaclecorp.co.in,+91-9690219620,Pinnacle Corp,Business,India,INR,Active
+CUST0422,Aarav Nair,aarav.nair93@icloud.com,+91-7946723248,,Individual,India,INR,Active
+CUST0423,Atharva Iyer,atharva.iyer86@yahoo.com,+91-8579145608,,Individual,India,INR,Active
+CUST0424,Amit Mehta,amit.mehta@radiantcorp.co.in,+91-9134031277,Radiant Corp,Business,India,INR,Active
+CUST0425,Aditya Malhotra,aditya.malhotra@crestconsulting.co.in,+91-9497010822,Crest Consulting,Business,India,INR,Active
+CUST0426,Ayan Bhatia,ayan.bhatia66@icloud.com,+91-8956353153,,Individual,India,INR,Active
+CUST0427,Kavita Rao,kavita.rao@starlightservices.co.in,+91-9106239726,Starlight Services,Business,India,INR,Active
+CUST0428,Advait Bansal,advait.bansal35@outlook.com,+91-9709042177,,Individual,India,INR,Active
+CUST0429,Advaith Deshmukh,advaith.deshmukh@infinitumglobal.co.in,+91-8831687397,Infinitum Global,Business,India,INR,Active
+CUST0430,Rohit Tripathi,rohit.tripathi41@yahoo.com,+91-9469392906,,Individual,Singapore,SGD,Active
+CUST0431,Rajesh Banerjee,rajesh.banerjee@auraventures.co.in,+91-7017731806,Aura Ventures,Business,United States,USD,Active
+CUST0432,Gauri Chawla,gauri.chawla@vertexsolutions.co.in,+91-9527990772,Vertex Solutions,Business,India,INR,Active
+CUST0433,Vikram Goyal,vikram.goyal@catalystsolutions.com,+91-9965804649,Catalyst Solutions,Business,India,INR,Active
+CUST0434,Vikram Saxena,vikram.saxena@horizontechnologies.co.in,+91-7950165790,Horizon Technologies,Business,India,INR,Active
+CUST0435,Neha Bhatia,neha.bhatia@velocityconsulting.co.in,+91-9438179335,Velocity Consulting,Business,India,INR,Active
+CUST0436,Anil Tripathi,anil.tripathi@vertexcapital.co.in,+91-9188178847,Vertex Capital,Business,India,INR,Active
+CUST0437,Manoj Bhatia,manoj.bhatia@sterlingnetworks.co.in,+91-9324112412,Sterling Networks,Business,India,INR,Active
+CUST0438,Amit Verma,amit.verma@summitcorp.com,+91-9156704310,Summit Corp,Business,India,INR,Active
+CUST0439,Amit Agarwal,amit.agarwal@horizoninfotech.co.in,+91-8788774924,Horizon Infotech,Business,India,INR,Active
+CUST0440,Rajesh Goyal,rajesh.goyal16@yahoo.com,+91-9447292842,,Individual,Singapore,SGD,Active
+CUST0441,Manoj Patel,manoj.patel@zenithtechnologies.com,+91-8927452380,Zenith Technologies,Business,India,INR,Inactive
+CUST0442,Ishaan Goyal,ishaan.goyal@alphacorp.co.in,+91-7906727520,Alpha Corp,Business,Singapore,SGD,Active
+CUST0443,Ramesh Agarwal,ramesh.agarwal@crestlabs.com,+91-7092975170,Crest Labs,Business,India,INR,Active
+CUST0444,Anika Verma,anika.verma@everestdigital.co.in,+91-9950939834,Everest Digital,Business,India,INR,Active
+CUST0445,Anita Srivastava,anita.srivastava21@icloud.com,+91-9337599805,,Individual,India,INR,Active
+CUST0446,Riya Goyal,riya.goyal@apexlogistics.co.in,+91-9578137674,Apex Logistics,Business,India,INR,Active
+CUST0447,Geeta Tripathi,geeta.tripathi63@yahoo.com,+91-7899123478,,Individual,UAE,AED,Active
+CUST0448,Rahul Mishra,rahul.mishra@synergyinnovations.co.in,+91-8879232648,Synergy Innovations,Business,India,INR,Active
+CUST0449,Anika Nayak,anika.nayak@novanetworks.co.in,+91-7002447146,Nova Networks,Business,India,INR,Inactive
+CUST0450,Deepak Chawla,deepak.chawla@velocityinnovations.co.in,+91-9995979647,Velocity Innovations,Business,Singapore,SGD,Active
+CUST0451,Pari Banerjee,pari.banerjee12@outlook.com,+91-9790257252,,Individual,India,INR,Active
+CUST0452,Pankaj Bansal,pankaj.bansal@crestgroup.com,+91-9983219285,Crest Group,Business,India,INR,Active
+CUST0453,Anil Kulkarni,anil.kulkarni@catalystcapital.co.in,+91-8952028457,Catalyst Capital,Business,India,INR,Inactive
+CUST0454,Shaurya Mehta,shaurya.mehta@auradigital.com,+91-7089888167,Aura Digital,Business,India,INR,Active
+CUST0455,Krishna Verma,krishna.verma@crestcapital.co.in,+91-9198524013,Crest Capital,Business,India,INR,Active
+CUST0456,Manoj Singh,manoj.singh@omegaenterprise.com,+91-9311076031,Omega Enterprise,Business,India,INR,Active
+CUST0457,Rahul Malhotra,rahul.malhotra@paramountinnovations.co.in,+91-9501193932,Paramount Innovations,Business,India,INR,Active
+CUST0458,Ishaan Bhasin,ishaan.bhasin54@outlook.com,+91-9789389119,,Individual,India,INR,Active
+CUST0459,Alok Rao,alok.rao31@icloud.com,+91-9813875927,,Individual,India,INR,Active
+CUST0460,Sunita Bansal,sunita.bansal64@yahoo.com,+91-8836151718,,Individual,India,INR,Active
+CUST0461,Alok Deshmukh,alok.deshmukh@nexusservices.co.in,+91-9964794738,Nexus Services,Business,India,INR,Inactive
+CUST0462,Riya Rao,riya.rao70@outlook.com,+91-9707167811,,Individual,India,INR,Active
+CUST0463,Rahul Mehta,rahul.mehta31@gmail.com,+91-9435396136,,Individual,India,INR,Active
+CUST0464,Alok Nayak,alok.nayak@velocityventures.co.in,+91-8796784271,Velocity Ventures,Business,India,INR,Active
+CUST0465,Advaith Shah,advaith.shah@elevatetechnologies.com,+91-9102695249,Elevate Technologies,Business,India,INR,Active
+CUST0466,Sunil Chatterjee,sunil.chatterjee69@yahoo.com,+91-9577848588,,Individual,India,INR,Active
+CUST0467,Riya Jain,riya.jain@horizonventures.co.in,+91-9802842762,Horizon Ventures,Business,India,INR,Active
+CUST0468,Nikhil Jain,nikhil.jain@prismcorp.com,+91-8977828064,Prism Corp,Business,India,INR,Inactive
+CUST0469,Sanjay Bansal,sanjay.bansal46@outlook.com,+91-9809025590,,Individual,India,INR,Active
+CUST0470,Navya Mehta,navya.mehta@pinnaclesystems.co.in,+91-8733349114,Pinnacle Systems,Business,India,INR,Active
+CUST0471,Priya Joshi,priya.joshi@summitsystems.co.in,+91-7964079056,Summit Systems,Business,India,INR,Active
+CUST0472,Reyansh Mukherjee,reyansh.mukherjee@summitconsulting.co.in,+91-8852945637,Summit Consulting,Business,India,INR,Inactive
+CUST0473,Arjun Dutta,arjun.dutta@beacontechnologies.co.in,+91-8963919195,Beacon Technologies,Business,India,INR,Active
+CUST0474,Amit Das,amit.das@pinnacleservices.com,+91-9584685366,Pinnacle Services,Business,India,INR,Active
+CUST0475,Sunil Roy,sunil.roy@apexgroup.com,+91-8973748969,Apex Group,Business,India,INR,Active
+CUST0476,Advait Goyal,advait.goyal@starlightenterprise.com,+91-7046651364,Starlight Enterprise,Business,India,INR,Active
+CUST0477,Ananya Swamy,ananya.swamy@starlightindustries.co.in,+91-9834778660,Starlight Industries,Business,India,INR,Active
+CUST0478,Vivaan Ahoja,vivaan.ahoja45@icloud.com,+91-9707001594,,Individual,India,INR,Inactive
+CUST0479,Myra Goyal,myra.goyal21@hotmail.com,+91-7823198189,,Individual,United States,USD,Inactive
+CUST0480,Ananya Mukherjee,ananya.mukherjee40@icloud.com,+91-9955963632,,Individual,India,INR,Active
+CUST0481,Diya Srivastava,diya.srivastava@radianttechnologies.co.in,+91-9415867342,Radiant Technologies,Business,India,INR,Active
+CUST0482,Meena Kulkarni,meena.kulkarni@sterlingtechnologies.com,+91-8703486451,Sterling Technologies,Business,India,INR,Active
+CUST0483,Aaliyah Mishra,aaliyah.mishra@vanguardinnovations.co.in,+91-7934327560,Vanguard Innovations,Business,India,INR,Active
+CUST0484,Gaurav Mukherjee,gaurav.mukherjee@synergyinfotech.com,+91-7912481569,Synergy Infotech,Business,India,INR,Active
+CUST0485,Sanya Choudhury,sanya.choudhury16@yahoo.com,+91-8772063459,,Individual,India,INR,Active
+CUST0486,Amit Shah,amit.shah97@hotmail.com,+91-7057724295,,Individual,India,INR,Active
+CUST0487,Myra Goyal,myra.goyal@sterlingventures.com,+91-7993008931,Sterling Ventures,Business,Singapore,SGD,Active
+CUST0488,Manoj Reddy,manoj.reddy@orbitsystems.com,+91-9715291086,Orbit Systems,Business,India,INR,Inactive
+CUST0489,Meena Mukherjee,meena.mukherjee@catalystconsulting.co.in,+91-7844762639,Catalyst Consulting,Business,India,INR,Active
+CUST0490,Rohit Rao,rohit.rao@synergyenterprise.co.in,+91-9539735971,Synergy Enterprise,Business,India,INR,Active
+CUST0491,Sanya Pandey,sanya.pandey59@hotmail.com,+91-8594118005,,Individual,United States,USD,Active
+CUST0492,Aadhya Swamy,aadhya.swamy86@gmail.com,+91-9848964652,,Individual,United Kingdom,GBP,Active
+CUST0493,Rahul Nair,rahul.nair@auralabs.com,+91-7972158624,Aura Labs,Business,India,INR,Active
+CUST0494,Krishna Mukherjee,krishna.mukherjee45@outlook.com,+91-7964494856,,Individual,India,INR,Active
+CUST0495,Suresh Patel,suresh.patel@paramountnetworks.co.in,+91-9703207427,Paramount Networks,Business,India,INR,Inactive
+CUST0496,Rekha Mukherjee,rekha.mukherjee@pinnaclecorp.co.in,+91-9112151342,Pinnacle Corp,Business,India,INR,Active
+CUST0497,Meena Bhasin,meena.bhasin@summitconsulting.co.in,+91-9889261371,Summit Consulting,Business,India,INR,Active
+CUST0498,Anil Jain,anil.jain@igniteindustries.com,+91-9701777490,Ignite Industries,Business,India,INR,Active
+CUST0499,Sanjay Srivastava,sanjay.srivastava@elevateenterprise.co.in,+91-9845018961,Elevate Enterprise,Business,India,INR,Active
+CUST0500,Gaurav Pandey,gaurav.pandey@radiantconsulting.co.in,+91-7064214764,Radiant Consulting,Business,India,INR,Active

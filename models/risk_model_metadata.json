@@ -1,0 +1,65 @@
+{
+  "selected_model": "logistic_regression",
+  "selection_rule": "Highest validation recall for high_attention, then F1, then ROC-AUC.",
+  "rows": 500,
+  "target_distribution": {
+    "0": 377,
+    "1": 123
+  },
+  "splits": {
+    "train": 350,
+    "validation": 75,
+    "test": 75
+  },
+  "thresholds": {
+    "LOW": 0.25,
+    "MEDIUM": 0.5,
+    "HIGH": 0.75
+  },
+  "feature_documentation": {
+    "target": "high_attention=1 for investigation-heavy exceptions or date mismatches above the configured severity threshold.",
+    "excluded_for_leakage": [
+      "exception_type",
+      "expected_exception_type",
+      "expected_final_decision",
+      "final_status",
+      "high_attention",
+      "invoice_id",
+      "is_exception",
+      "payment_id",
+      "reason",
+      "recommended_action",
+      "risk_level",
+      "transaction_id"
+    ],
+    "numeric_features": [
+      "bank_amount",
+      "payment_amount",
+      "amount_difference",
+      "absolute_amount_difference",
+      "amount_difference_pct",
+      "date_difference",
+      "transaction_payment_id_delta",
+      "has_payment_id"
+    ],
+    "boolean_features": [
+      "amount_match",
+      "date_match",
+      "ledger_found",
+      "same_transaction_payment_numeric_id"
+    ],
+    "categorical_features": [
+      "ledger_status",
+      "payment_status",
+      "date_severity",
+      "match_status",
+      "has_normalized_reference"
+    ],
+    "date_threshold_days": 7
+  },
+  "limitations": [
+    "Only 500 records are available.",
+    "Target is constructed from business rules, not from historical analyst resolution labels.",
+    "Metrics are useful for development comparison, not a production performance claim."
+  ]
+}

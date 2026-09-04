@@ -1,0 +1,56 @@
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+DATA_DIR = PROJECT_ROOT / "data"
+RAW_DIR = DATA_DIR / "raw"
+PROCESSED_DIR = DATA_DIR / "processed"
+GROUND_TRUTH_FILE = DATA_DIR / "ground truth" / "ground_truth.csv"
+
+AMOUNT_TOLERANCE = 0.01
+VALID_LEDGER_STATUS = "POSTED"
+
+STATUS_TO_GROUND_TRUTH = {
+    "MATCHED": "CLEAN_MATCH",
+    "DATE_MISMATCH": "SETTLEMENT_DELAY",
+    "DUPLICATE_PAYMENT": "DUPLICATE_PAYMENT",
+    "AMOUNT_MISMATCH": "AMOUNT_MISMATCH",
+    "LEDGER_EXCEPTION": "LEDGER_PENDING",
+    "PAYMENT_FAILED": "PAYMENT_FAILED",
+    "PAYMENT_REFUNDED": "PAYMENT_REFUNDED",
+}
+
+EXPECTED_BENCHMARK_COUNTS = {
+    "MATCHED": 202,
+    "DATE_MISMATCH": 228,
+    "DUPLICATE_PAYMENT": 25,
+    "AMOUNT_MISMATCH": 15,
+    "LEDGER_EXCEPTION": 15,
+    "PAYMENT_FAILED": 10,
+    "PAYMENT_REFUNDED": 5,
+}
+
+RISK_WEIGHTS = {
+    "severity": {
+        "PAYMENT_FAILED": 45,
+        "PAYMENT_REFUNDED": 45,
+        "AMOUNT_MISMATCH": 40,
+        "LEDGER_EXCEPTION": 35,
+        "DUPLICATE_PAYMENT": 30,
+        "DATE_MISMATCH": 20,
+        "MATCHED": 0,
+    },
+    "amount_high_watermark": 200000,
+    "amount_weight": 25,
+    "date_weight": 20,
+    "recurrence_weight": 10,
+}
+
+ML_RISK_THRESHOLDS = {
+    "LOW": 0.25,
+    "MEDIUM": 0.50,
+    "HIGH": 0.75,
+}
+
+HIGH_ATTENTION_DATE_THRESHOLD_DAYS = 7

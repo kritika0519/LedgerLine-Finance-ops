@@ -1,0 +1,110 @@
+{
+  "logistic_regression": {
+    "validation": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          56,
+          0
+        ],
+        [
+          0,
+          19
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    }
+  },
+  "decision_tree": {
+    "validation": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          56,
+          0
+        ],
+        [
+          0,
+          19
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    }
+  },
+  "random_forest": {
+    "validation": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          56,
+          0
+        ],
+        [
+          0,
+          19
+        ]
+      ]
+    },
+    "test": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          57,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ]
+    }
+  }
+}

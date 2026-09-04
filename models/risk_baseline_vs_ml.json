@@ -1,0 +1,10 @@
+{
+  "rows": 500,
+  "agree": 500,
+  "disagree": 0,
+  "ml_high_attention": 123,
+  "baseline_high_attention": 123,
+  "false_positive_vs_baseline": 0,
+  "false_negative_vs_baseline": 0,
+  "note": "Baseline comparison uses existing deterministic risk_level. Differences are review candidates, not proof that either method is wrong."
+}

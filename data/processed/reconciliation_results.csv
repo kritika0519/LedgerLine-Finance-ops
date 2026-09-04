@@ -1,0 +1,501 @@
+transaction_id,payment_id,final_status,reason,amount_match,date_match,ledger_found,ledger_status,payment_status,date_difference,amount_difference,absolute_amount_difference
+TXN0001,PAY0001,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0002,PAY0002,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0003,PAY0003,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0004,PAY0074,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0005,PAY0005,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0006,PAY0006,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0007,PAY0007,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0008,PAY0008,PAYMENT_REFUNDED,Payment gateway status is REFUNDED,True,True,True,POSTED,REFUNDED,0.0,0.0,0.0
+TXN0009,PAY0009,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0010,PAY0010,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0011,PAY0011,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0012,PAY0012,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0013,PAY0013,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0014,PAY0014,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0015,PAY0015,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0016,PAY0016,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0017,PAY0017,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0018,PAY0018,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0019,PAY0186,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0020,PAY0020,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0021,PAY0021,DATE_MISMATCH,Bank transaction date differs from payment date by 22 days,True,False,True,POSTED,SUCCESS,22.0,0.0,0.0
+TXN0022,PAY0022,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0023,PAY0023,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0024,PAY0024,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0025,PAY0025,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0026,PAY0026,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0027,PAY0027,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0028,PAY0028,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0029,PAY0029,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0030,PAY0030,DATE_MISMATCH,Bank transaction date differs from payment date by 96 days,True,False,True,POSTED,SUCCESS,96.0,0.0,0.0
+TXN0031,PAY0031,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0032,PAY0032,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0033,PAY0033,DATE_MISMATCH,Bank transaction date differs from payment date by 66 days,True,False,True,POSTED,SUCCESS,66.0,0.0,0.0
+TXN0034,PAY0034,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0035,PAY0035,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0036,PAY0036,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0037,PAY0037,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0038,PAY0038,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0039,PAY0039,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0040,PAY0040,DATE_MISMATCH,Bank transaction date differs from payment date by 86 days,True,False,True,POSTED,SUCCESS,86.0,0.0,0.0
+TXN0041,PAY0041,DATE_MISMATCH,Bank transaction date differs from payment date by 130 days,True,False,True,POSTED,SUCCESS,130.0,0.0,0.0
+TXN0042,PAY0042,DATE_MISMATCH,Bank transaction date differs from payment date by 64 days,True,False,True,POSTED,SUCCESS,64.0,0.0,0.0
+TXN0043,PAY0043,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0044,PAY0044,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0045,PAY0045,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0046,PAY0046,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0047,PAY0047,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0048,PAY0048,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0049,PAY0049,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0050,PAY0050,PAYMENT_REFUNDED,Payment gateway status is REFUNDED,True,True,True,POSTED,REFUNDED,0.0,0.0,0.0
+TXN0051,PAY0051,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0052,PAY0052,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0053,PAY0053,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0054,PAY0054,DATE_MISMATCH,Bank transaction date differs from payment date by 10 days,True,False,True,POSTED,SUCCESS,10.0,0.0,0.0
+TXN0055,PAY0055,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0056,PAY0056,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0057,PAY0057,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0058,PAY0058,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0059,PAY0059,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0060,PAY0060,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0061,PAY0061,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0062,PAY0062,DATE_MISMATCH,Bank transaction date differs from payment date by 24 days,True,False,True,POSTED,SUCCESS,24.0,0.0,0.0
+TXN0063,PAY0063,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0064,PAY0064,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0065,PAY0065,DATE_MISMATCH,Bank transaction date differs from payment date by 13 days,True,False,True,POSTED,SUCCESS,13.0,0.0,0.0
+TXN0066,PAY0066,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0067,PAY0067,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0068,PAY0068,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0069,PAY0069,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0070,PAY0070,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0071,PAY0071,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0072,PAY0072,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0073,PAY0073,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0074,PAY0074,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0075,PAY0075,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0076,PAY0076,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0077,PAY0077,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0078,PAY0280,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0079,PAY0079,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0080,PAY0080,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0081,PAY0081,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0082,PAY0082,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0083,PAY0083,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0084,PAY0084,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0085,PAY0085,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0086,PAY0086,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0087,PAY0087,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0088,PAY0088,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0089,PAY0284,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0090,PAY0090,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0091,PAY0091,DATE_MISMATCH,Bank transaction date differs from payment date by 36 days,True,False,True,POSTED,SUCCESS,36.0,0.0,0.0
+TXN0092,PAY0092,DATE_MISMATCH,Bank transaction date differs from payment date by 16 days,True,False,True,POSTED,SUCCESS,16.0,0.0,0.0
+TXN0093,PAY0093,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0094,PAY0366,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0095,PAY0095,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0096,PAY0096,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0097,PAY0097,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0098,PAY0060,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0099,PAY0099,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0100,PAY0100,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0101,PAY0101,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0102,PAY0102,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0103,PAY0103,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0104,PAY0104,DATE_MISMATCH,Bank transaction date differs from payment date by 98 days,True,False,True,POSTED,SUCCESS,98.0,0.0,0.0
+TXN0105,PAY0105,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0106,PAY0106,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0107,PAY0107,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0108,PAY0108,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0109,PAY0109,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0110,PAY0146,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0111,PAY0111,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0112,PAY0112,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0113,PAY0113,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0114,PAY0114,DATE_MISMATCH,Bank transaction date differs from payment date by 26 days,True,False,True,POSTED,SUCCESS,26.0,0.0,0.0
+TXN0115,PAY0115,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0116,PAY0116,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0117,PAY0117,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0118,PAY0118,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0119,PAY0119,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0120,PAY0120,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0121,PAY0121,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0122,PAY0122,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0123,PAY0123,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0124,PAY0124,DATE_MISMATCH,Bank transaction date differs from payment date by 42 days,True,False,True,POSTED,SUCCESS,42.0,0.0,0.0
+TXN0125,PAY0125,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0126,PAY0126,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0127,PAY0127,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0128,PAY0128,DATE_MISMATCH,Bank transaction date differs from payment date by 15 days,True,False,True,POSTED,SUCCESS,15.0,0.0,0.0
+TXN0129,PAY0129,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0130,PAY0130,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0131,PAY0131,DATE_MISMATCH,Bank transaction date differs from payment date by 23 days,True,False,True,POSTED,SUCCESS,23.0,0.0,0.0
+TXN0132,PAY0132,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0133,PAY0133,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0134,PAY0134,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0135,PAY0135,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0136,PAY0136,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0137,PAY0137,PAYMENT_REFUNDED,Payment gateway status is REFUNDED,True,True,True,POSTED,REFUNDED,0.0,0.0,0.0
+TXN0138,PAY0138,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0139,PAY0139,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0140,PAY0140,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0141,PAY0141,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0142,PAY0142,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0143,PAY0143,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0144,PAY0144,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0145,PAY0145,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0146,PAY0146,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0147,PAY0147,DATE_MISMATCH,Bank transaction date differs from payment date by 29 days,True,False,True,POSTED,SUCCESS,29.0,0.0,0.0
+TXN0148,PAY0148,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0149,PAY0149,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0150,PAY0333,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0151,PAY0151,DATE_MISMATCH,Bank transaction date differs from payment date by 143 days,True,False,True,POSTED,SUCCESS,143.0,0.0,0.0
+TXN0152,PAY0355,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0153,PAY0153,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0154,PAY0154,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0155,PAY0155,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0156,PAY0156,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0157,PAY0157,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0158,PAY0158,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0159,PAY0159,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0160,PAY0160,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0161,PAY0161,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0162,PAY0162,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0163,PAY0163,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0164,PAY0164,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0165,PAY0165,DATE_MISMATCH,Bank transaction date differs from payment date by 27 days,True,False,True,POSTED,SUCCESS,27.0,0.0,0.0
+TXN0166,PAY0166,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0167,PAY0167,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0168,PAY0168,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0169,PAY0169,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0170,PAY0170,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0171,PAY0171,DATE_MISMATCH,Bank transaction date differs from payment date by 17 days,True,False,True,POSTED,SUCCESS,17.0,0.0,0.0
+TXN0172,PAY0172,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0173,PAY0173,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0174,PAY0174,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0175,PAY0175,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0176,PAY0176,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0177,PAY0177,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0178,PAY0178,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0179,PAY0179,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0180,PAY0180,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0181,PAY0181,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0182,PAY0182,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0183,PAY0183,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0184,PAY0184,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0185,PAY0185,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0186,PAY0186,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0187,PAY0187,DATE_MISMATCH,Bank transaction date differs from payment date by 122 days,True,False,True,POSTED,SUCCESS,122.0,0.0,0.0
+TXN0188,PAY0188,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0189,PAY0189,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0190,PAY0190,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0191,PAY0191,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0192,PAY0192,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0193,PAY0193,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0194,PAY0194,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0195,PAY0195,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0196,PAY0196,DATE_MISMATCH,Bank transaction date differs from payment date by 48 days,True,False,True,POSTED,SUCCESS,48.0,0.0,0.0
+TXN0197,PAY0197,DATE_MISMATCH,Bank transaction date differs from payment date by 74 days,True,False,True,POSTED,SUCCESS,74.0,0.0,0.0
+TXN0198,PAY0198,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0199,PAY0199,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0200,PAY0200,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0201,PAY0201,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0202,PAY0202,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0203,PAY0203,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0204,PAY0204,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0205,PAY0205,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0206,PAY0206,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0207,PAY0315,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0208,PAY0208,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0209,PAY0209,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0210,PAY0210,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0211,PAY0211,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0212,PAY0212,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0213,PAY0213,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0214,PAY0214,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0215,PAY0215,DATE_MISMATCH,Bank transaction date differs from payment date by 128 days,True,False,True,POSTED,SUCCESS,128.0,0.0,0.0
+TXN0216,PAY0216,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0217,PAY0217,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0218,PAY0218,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0219,PAY0219,DATE_MISMATCH,Bank transaction date differs from payment date by 16 days,True,False,True,POSTED,SUCCESS,16.0,0.0,0.0
+TXN0220,PAY0220,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0221,PAY0221,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0222,PAY0222,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0223,PAY0223,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0224,PAY0224,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0225,PAY0225,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0226,PAY0226,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0227,PAY0227,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0228,PAY0228,DATE_MISMATCH,Bank transaction date differs from payment date by 118 days,True,False,True,POSTED,SUCCESS,118.0,0.0,0.0
+TXN0229,PAY0229,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0230,PAY0230,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0231,PAY0231,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0232,PAY0232,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0233,PAY0233,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0234,PAY0234,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0235,PAY0235,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0236,PAY0236,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0237,PAY0237,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0238,PAY0238,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0239,PAY0239,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0240,PAY0240,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0241,PAY0241,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0242,PAY0242,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0243,PAY0243,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0244,PAY0244,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0245,PAY0245,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0246,PAY0246,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0247,PAY0247,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0248,PAY0248,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0249,PAY0249,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0250,PAY0250,DATE_MISMATCH,Bank transaction date differs from payment date by 13 days,True,False,True,POSTED,SUCCESS,13.0,0.0,0.0
+TXN0251,PAY0251,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0252,PAY0252,DATE_MISMATCH,Bank transaction date differs from payment date by 26 days,True,False,True,POSTED,SUCCESS,26.0,0.0,0.0
+TXN0253,PAY0253,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0254,PAY0254,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0255,PAY0255,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0256,PAY0256,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0257,PAY0257,DATE_MISMATCH,Bank transaction date differs from payment date by 25 days,True,False,True,POSTED,SUCCESS,25.0,0.0,0.0
+TXN0258,PAY0258,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0259,PAY0259,DATE_MISMATCH,Bank transaction date differs from payment date by 121 days,True,False,True,POSTED,SUCCESS,121.0,0.0,0.0
+TXN0260,PAY0260,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0261,PAY0261,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0262,PAY0262,DATE_MISMATCH,Bank transaction date differs from payment date by 20 days,True,False,True,POSTED,SUCCESS,20.0,0.0,0.0
+TXN0263,PAY0263,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0264,PAY0264,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0265,PAY0265,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0266,PAY0266,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0267,PAY0267,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0268,PAY0268,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0269,PAY0269,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0270,PAY0270,DATE_MISMATCH,Bank transaction date differs from payment date by 8 days,True,False,True,POSTED,SUCCESS,8.0,0.0,0.0
+TXN0271,PAY0271,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0272,PAY0272,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0273,PAY0273,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0274,PAY0274,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0275,PAY0275,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0276,PAY0276,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0277,PAY0277,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0278,PAY0278,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0279,PAY0279,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0280,PAY0280,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0281,PAY0281,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0282,PAY0282,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0283,PAY0283,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0284,PAY0284,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0285,PAY0285,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0286,PAY0242,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0287,PAY0287,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0288,PAY0288,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0289,PAY0289,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0290,PAY0290,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0291,PAY0291,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0292,PAY0292,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0293,PAY0293,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0294,PAY0294,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0295,PAY0295,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0296,PAY0296,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0297,PAY0297,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0298,PAY0298,DATE_MISMATCH,Bank transaction date differs from payment date by 18 days,True,False,True,POSTED,SUCCESS,18.0,0.0,0.0
+TXN0299,PAY0299,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0300,PAY0300,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0301,PAY0301,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0302,PAY0302,DATE_MISMATCH,Bank transaction date differs from payment date by 20 days,True,False,True,POSTED,SUCCESS,20.0,0.0,0.0
+TXN0303,PAY0303,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0304,PAY0304,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0305,PAY0305,DATE_MISMATCH,Bank transaction date differs from payment date by 61 days,True,False,True,POSTED,SUCCESS,61.0,0.0,0.0
+TXN0306,PAY0306,DATE_MISMATCH,Bank transaction date differs from payment date by 20 days,True,False,True,POSTED,SUCCESS,20.0,0.0,0.0
+TXN0307,PAY0307,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0308,PAY0308,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0309,PAY0309,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0310,PAY0310,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0311,PAY0323,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0312,PAY0310,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0313,PAY0313,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0314,PAY0314,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0315,PAY0315,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0316,PAY0316,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0317,PAY0317,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0318,PAY0318,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0319,PAY0319,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0320,PAY0320,DATE_MISMATCH,Bank transaction date differs from payment date by 12 days,True,False,True,POSTED,SUCCESS,12.0,0.0,0.0
+TXN0321,PAY0321,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0322,PAY0322,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0323,PAY0323,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0324,PAY0324,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0325,PAY0325,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0326,PAY0326,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0327,PAY0327,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0328,PAY0328,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0329,PAY0329,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0330,PAY0330,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0331,PAY0331,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0332,PAY0332,DATE_MISMATCH,Bank transaction date differs from payment date by 53 days,True,False,True,POSTED,SUCCESS,53.0,0.0,0.0
+TXN0333,PAY0333,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0334,PAY0334,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0335,PAY0335,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0336,PAY0453,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0337,PAY0337,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0338,PAY0338,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0339,PAY0339,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0340,PAY0340,DATE_MISMATCH,Bank transaction date differs from payment date by 37 days,True,False,True,POSTED,SUCCESS,37.0,0.0,0.0
+TXN0341,PAY0341,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0342,PAY0342,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0343,PAY0343,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0344,PAY0344,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0345,PAY0345,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0346,PAY0346,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0347,PAY0347,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0348,PAY0348,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0349,PAY0274,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0350,PAY0350,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0351,PAY0351,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0352,PAY0352,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0353,PAY0353,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0354,PAY0354,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0355,PAY0355,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0356,PAY0356,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0357,PAY0357,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0358,PAY0358,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0359,PAY0359,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0360,PAY0329,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0361,PAY0361,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0362,PAY0362,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0363,PAY0363,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0364,PAY0364,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0365,PAY0365,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0366,PAY0366,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0367,PAY0367,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0368,PAY0368,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0369,PAY0369,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0370,PAY0370,DATE_MISMATCH,Bank transaction date differs from payment date by 22 days,True,False,True,POSTED,SUCCESS,22.0,0.0,0.0
+TXN0371,PAY0371,DATE_MISMATCH,Bank transaction date differs from payment date by 73 days,True,False,True,POSTED,SUCCESS,73.0,0.0,0.0
+TXN0372,PAY0372,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0373,PAY0373,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0374,PAY0374,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0375,PAY0375,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0376,PAY0376,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0377,PAY0377,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0378,PAY0378,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0379,PAY0379,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0380,PAY0249,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0381,PAY0381,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0382,PAY0382,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0383,PAY0383,DATE_MISMATCH,Bank transaction date differs from payment date by 19 days,True,False,True,POSTED,SUCCESS,19.0,0.0,0.0
+TXN0384,PAY0384,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0385,PAY0385,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0386,PAY0386,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0387,PAY0387,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0388,PAY0388,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0389,PAY0389,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0390,PAY0390,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0391,PAY0155,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0392,PAY0392,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0393,PAY0393,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0394,PAY0394,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0395,PAY0395,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0396,PAY0396,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0397,PAY0397,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0398,PAY0398,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0399,PAY0003,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0400,PAY0400,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0401,PAY0401,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0402,PAY0402,DATE_MISMATCH,Bank transaction date differs from payment date by 20 days,True,False,True,POSTED,SUCCESS,20.0,0.0,0.0
+TXN0403,PAY0403,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0404,PAY0404,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0405,PAY0346,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0406,PAY0406,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0407,PAY0046,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0408,PAY0408,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0409,PAY0409,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0410,PAY0410,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0411,PAY0411,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0412,PAY0412,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0413,PAY0071,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0414,PAY0414,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0415,PAY0415,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0416,PAY0416,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0417,PAY0417,DATE_MISMATCH,Bank transaction date differs from payment date by 47 days,True,False,True,POSTED,SUCCESS,47.0,0.0,0.0
+TXN0418,PAY0418,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0419,PAY0419,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0420,PAY0420,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0421,PAY0421,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0422,PAY0422,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0423,PAY0423,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0424,PAY0424,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0425,PAY0425,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0426,PAY0426,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0427,PAY0427,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0428,PAY0428,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0429,PAY0429,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0430,PAY0430,DATE_MISMATCH,Bank transaction date differs from payment date by 6 days,True,False,True,POSTED,SUCCESS,6.0,0.0,0.0
+TXN0431,PAY0431,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0432,PAY0432,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0433,PAY0433,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0434,PAY0434,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0435,PAY0435,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0436,PAY0436,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0437,PAY0437,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0438,PAY0438,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0439,PAY0439,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0440,PAY0440,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0441,PAY0441,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0442,PAY0442,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0443,PAY0443,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0444,PAY0444,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0445,PAY0445,DATE_MISMATCH,Bank transaction date differs from payment date by 5 days,True,False,True,POSTED,SUCCESS,5.0,0.0,0.0
+TXN0446,PAY0446,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0447,PAY0447,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0448,PAY0448,PAYMENT_REFUNDED,Payment gateway status is REFUNDED,True,True,True,POSTED,REFUNDED,0.0,0.0,0.0
+TXN0449,PAY0449,DATE_MISMATCH,Bank transaction date differs from payment date by 22 days,True,False,True,POSTED,SUCCESS,22.0,0.0,0.0
+TXN0450,PAY0450,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0451,PAY0451,DATE_MISMATCH,Bank transaction date differs from payment date by 47 days,True,False,True,POSTED,SUCCESS,47.0,0.0,0.0
+TXN0452,PAY0452,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0453,PAY0453,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0454,PAY0454,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0455,PAY0455,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0456,PAY0456,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0457,PAY0457,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0458,PAY0458,DATE_MISMATCH,Bank transaction date differs from payment date by 7 days,True,False,True,POSTED,SUCCESS,7.0,0.0,0.0
+TXN0459,PAY0459,LEDGER_EXCEPTION,Ledger entry exists but posting status is PENDING,True,True,True,PENDING,SUCCESS,0.0,0.0,0.0
+TXN0460,PAY0460,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0461,PAY0461,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0462,PAY0462,DATE_MISMATCH,Bank transaction date differs from payment date by 52 days,True,False,True,POSTED,SUCCESS,52.0,0.0,0.0
+TXN0463,PAY0463,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0464,PAY0464,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0465,PAY0465,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0466,PAY0466,DATE_MISMATCH,Bank transaction date differs from payment date by 57 days,True,False,True,POSTED,SUCCESS,57.0,0.0,0.0
+TXN0467,PAY0467,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0468,PAY0468,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0469,PAY0469,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0470,PAY0470,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0471,PAY0471,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0472,PAY0472,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0473,PAY0473,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0474,PAY0474,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0475,PAY0475,DATE_MISMATCH,Bank transaction date differs from payment date by 10 days,True,False,True,POSTED,SUCCESS,10.0,0.0,0.0
+TXN0476,PAY0476,DATE_MISMATCH,Bank transaction date differs from payment date by 10 days,True,False,True,POSTED,SUCCESS,10.0,0.0,0.0
+TXN0477,PAY0477,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0478,PAY0478,DATE_MISMATCH,Bank transaction date differs from payment date by 30 days,True,False,True,POSTED,SUCCESS,30.0,0.0,0.0
+TXN0479,PAY0479,DATE_MISMATCH,Bank transaction date differs from payment date by 10 days,True,False,True,POSTED,SUCCESS,10.0,0.0,0.0
+TXN0480,PAY0480,DATE_MISMATCH,Bank transaction date differs from payment date by 4 days,True,False,True,POSTED,SUCCESS,4.0,0.0,0.0
+TXN0481,PAY0174,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0482,PAY0482,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0483,PAY0483,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0484,PAY0484,DATE_MISMATCH,Bank transaction date differs from payment date by 10 days,True,False,True,POSTED,SUCCESS,10.0,0.0,0.0
+TXN0485,PAY0485,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0486,PAY0486,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0487,PAY0487,DATE_MISMATCH,Bank transaction date differs from payment date by 1 days,True,False,True,POSTED,SUCCESS,1.0,0.0,0.0
+TXN0488,PAY0488,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0489,PAY0489,AMOUNT_MISMATCH,Bank reference matched a payment candidate but amounts differ,False,,False,,,,,
+TXN0490,PAY0490,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0491,PAY0057,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0492,PAY0492,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0493,PAY0493,PAYMENT_REFUNDED,Payment gateway status is REFUNDED,True,True,True,POSTED,REFUNDED,0.0,0.0,0.0
+TXN0494,PAY0255,DUPLICATE_PAYMENT,Matching payment was already assigned to another bank transaction,,,False,,,,,
+TXN0495,PAY0495,DATE_MISMATCH,Bank transaction date differs from payment date by 3 days,True,False,True,POSTED,SUCCESS,3.0,0.0,0.0
+TXN0496,PAY0496,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0497,PAY0497,PAYMENT_FAILED,Payment gateway status is FAILED,True,True,True,POSTED,FAILED,0.0,0.0,0.0
+TXN0498,PAY0498,DATE_MISMATCH,Bank transaction date differs from payment date by 2 days,True,False,True,POSTED,SUCCESS,2.0,0.0,0.0
+TXN0499,PAY0499,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
+TXN0500,PAY0500,MATCHED,"Amount, date, payment status and ledger validation passed",True,True,True,POSTED,SUCCESS,0.0,0.0,0.0
