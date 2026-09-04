@@ -122,6 +122,45 @@ npm run dev
 
 Open `http://localhost:3000`. API documentation is available at `http://localhost:8000/docs`.
 
+## Deploy
+
+The repository includes `render.yaml` for the FastAPI service and `vercel.json`
+for the Vite dashboard.
+
+### Render API
+
+Create a Render Web Service from the repository. The production start command
+is:
+
+```text
+uvicorn src.api.main:app --host 0.0.0.0 --port $PORT
+```
+
+Set these Render environment variables:
+
+```text
+API_CORS_ORIGINS=https://your-dashboard.vercel.app
+AI_INVESTIGATION_PROVIDER=gemini
+GEMINI_API_KEY=<set in Render, never commit>
+GEMINI_MODEL=gemini-2.5-flash-lite
+GEMINI_TIMEOUT_SECONDS=15
+```
+
+`/health` is configured as the Render health check. Gemini credentials remain
+server-side.
+
+### Vercel Dashboard
+
+Import the repository into Vercel. The included configuration builds the
+`frontend/` Vite app. Set this Vercel environment variable:
+
+```text
+VITE_API_BASE_URL=https://your-api.onrender.com
+```
+
+Do not set `GEMINI_API_KEY` in Vercel. The frontend only needs the public API
+base URL.
+
 ## API Endpoints
 
 | Method | Endpoint                                     | Purpose                                   |
